@@ -1,0 +1,128 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    display: grid;
+    place-items: center;
+    height: 100vh; 
+    margin: 0px;
+   overflow-x: hidden;
+  
+}
+  header, section {
+    width: 100%;
+    text-align: center;
+  }
+  
+  header .top-bar {
+    background: linear-gradient(to right, orange, pink);
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .navbar {
+    background: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  header .navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  header .navbar ul li {
+    margin: 0 15px;
+  }
+  
+  header .navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  header .buy-now {
+    background: orange;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+
+  .banner {
+    background: url('https://cdni.iconscout.com/illustration/premium/thumb/female-web-developer-working-on-project-illustration-download-in-svg-png-gif-file-formats--html-logo-woman-developing-website-frontend-development-pack-design-illustrations-6294774.png') no-repeat center;
+    width: 100%;
+    height: 120%;
+    color: rgb(161, 21, 21);
+    padding: 40px;
+    
+    
+  }
+  
+  .banner h1 {
+    font-size: 3rem;
+  }
+  .banner-buttons button {
+    margin: 40px;
+    padding: 10px 10px;
+    border: none;
+    background: palevioletred;
+    color: black;
+    cursor: pointer;
+    bottom: 0;
+
+    
+  }
+  
+
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background: linear-gradient(to right, orange, pink);
+    color: white;
+  }
+  
+  .features .feature {
+    width: 30%;
+  }
+  
+  .about-us p{
+    padding: 50px;
+    align-items: left;
+    margin-right: 25%;
+    text-align: justify;
+    
+  }
+  
+  .about-us img {
+    border-radius: 50%;
+    float: right;
+  }
+  
+  .services {
+    padding: 50px;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+
+  }
+  
+  .services .service img {
+    margin-top: 60px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    left: 10px;
+    align-items: center;
+  }
+  
